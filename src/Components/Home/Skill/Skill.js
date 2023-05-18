@@ -1,8 +1,9 @@
 import React from 'react';
 import { TbMathSymbols } from 'react-icons/tb';
 import { VscDebugAlt } from 'react-icons/vsc';
-import { DiReact } from 'react-icons/di';
+import { DiReact,DiNodejsSmall,DiJavascript1, DiMongodb,DiHtml5 } from 'react-icons/di';
 import { BsCodeSlash } from 'react-icons/bs';
+import { SiTypescript,SiExpress , SiDeno} from 'react-icons/si';
 import { FiDatabase } from 'react-icons/fi';
 import { GiCheckboxTree, GiInnerSelf, GiSandsOfTime } from 'react-icons/gi';
 import { IoLogoJavascript } from 'react-icons/io';
@@ -95,36 +96,36 @@ const Skill = () => {
                                 <h2>React.js</h2>
                             </div>
                             <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
-                                <DiReact className='mr-2'></DiReact>
+                                <DiNodejsSmall className='mr-2'></DiNodejsSmall>
                                 <h2>Node.js</h2>
                             </div>
 
                             <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
-                                <DiReact className='mr-2'></DiReact>
+                                <DiJavascript1 className='mr-2'></DiJavascript1>
                                 <h2>JavaScript & ES6</h2>
                             </div>
 
                             <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
-                                <DiReact className='mr-2'></DiReact>
+                                <DiMongodb className='mr-2'></DiMongodb>
                                 <h2>MongoDB</h2>
                             </div>
                             <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
-                                <DiReact className='mr-2'></DiReact>
+                                <SiExpress className='mr-2'></SiExpress>
                                 <h2>Express.js</h2>
                             </div>
                             <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
-                                <DiReact className='mr-2'></DiReact>
+                                <SiTypescript className='mr-2'></SiTypescript>
+                                <h2>Typescript</h2>
+                            </div>
+
+                            <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
+                                <DiHtml5 className='mr-2'></DiHtml5>
                                 <h2>HTML & CSS</h2>
                             </div>
 
                             <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
-                                <DiReact className='mr-2'></DiReact>
-                                <h2>HTML & CSS</h2>
-                            </div>
-
-                            <div className='flex justify-center duration-500 transition-all bg-primary hover:bg-secondary rounded-md p-5  items-center'>
-                                <DiReact className='mr-2'></DiReact>
-                                <h2>HTML & CSS</h2>
+                                <SiDeno className='mr-2'></SiDeno>
+                                <h2>Deno</h2>
                             </div>
 
 
